@@ -7,12 +7,12 @@ export default function Hero() {
   return (
     <section id="home" className="relative isolate overflow-hidden border-b border-white/10 pt-24">
       <video
-        className="pointer-events-none absolute inset-0 -z-20 hidden h-full w-full object-cover opacity-25 sm:block"
+        className="pointer-events-none absolute inset-0 -z-20 h-full w-full object-cover opacity-25"
         autoPlay
         loop
         muted
         playsInline
-        preload="metadata"
+        preload="auto"
         poster="/assets/header/header.png"
       >
         <source src="/assets/video/4178109-hd_1920_1080_30fps_2.mp4" type="video/mp4" />
